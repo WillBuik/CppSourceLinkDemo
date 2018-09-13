@@ -2,4 +2,4 @@
 
 #include <string>
 
-std::string libFunc();
+__declspec(dllexport) std::string libFunc();

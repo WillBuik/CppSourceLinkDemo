@@ -1,6 +1,6 @@
 #include "lib.h"
 
-std::string libFunc()
+__declspec(dllexport) std::string libFunc()
 {
 	return "Hello from library!";
 }
